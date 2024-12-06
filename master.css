@@ -1,0 +1,54 @@
+:root {
+    --gradient: linear-gradient(
+        180deg,
+        #0b284e,
+        #362cb9
+    );
+    --buttons-color: #362cb9;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: -15px;
+}
+svg {
+    margin-bottom: -8px;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--gradient) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px black;
+}
+#timer {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+#start {
+    background-color: green;
+}
+#pause {
+    background-color: red;
+}
+#reset {
+    background-color: var(--buttons-color);
+}
